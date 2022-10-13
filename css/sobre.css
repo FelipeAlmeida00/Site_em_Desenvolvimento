@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:url('../img/fundo03.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+
+    width: 230px;
+    height: 80px;
+    border-radius: 229%;
+
+}
+
+img:hover {
+
+    width: 230px;
+    height: 75px;
+    background-color: lightblue;
+}
+
+header .menu{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .menu li{
+    display: inline-block;
+    
+}
+
+header .menu a{
+    color: white;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 200ms;
+}
+
+header .ativo,header .haha:hover{
+    color: white;
+    background-color: lightblue;
+}
